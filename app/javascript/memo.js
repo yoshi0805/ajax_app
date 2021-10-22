@@ -32,7 +32,7 @@ function post (){
       list.insertAdjacentHTML("afterend", buildHTML(XHR));
       formText.value = "";
     };
-  };
-});
+  });
+};
 
 window.addEventListener('load', post);
